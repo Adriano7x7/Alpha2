@@ -22,9 +22,9 @@ sf::RectangleShape rectangulo(sf::Vector2f(100.f, 100.f)); // cambia el tamaño a
 rectangulo.setSize(sf::Vector2f(200.f, 150.f));
 
 //color de los objetos
-circulo.setFillColor(sf::Color::Red);
-cuadrado.setFillColor(sf::Color::Green);
-rectangulo.setFillColor(sf::Color::Blue);
+circulo.setFillColor(sf::Color::Cyan);
+cuadrado.setFillColor(sf::Color::White);
+rectangulo.setFillColor(sf::Color::Yellow);
 
 //Posicion de los objetos en la ventana
 circulo.setPosition(0, 10);
