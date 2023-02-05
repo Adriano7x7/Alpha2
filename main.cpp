@@ -56,8 +56,8 @@ textCuadrado.setCharacterSize(24);
 textRectangulo.setCharacterSize(24);
 
 //Color de texto.
-textNombre.setFillColor(sf::Color::Green);
-textMatricula.setFillColor(sf::Color::Blue);
+textNombre.setFillColor(sf::Color::Red);
+textMatricula.setFillColor(sf::Color::Yellow);
 textCirculo.setFillColor(sf::Color::White);
 textCuadrado.setFillColor(sf::Color::White);
 textRectangulo.setFillColor(sf::Color::White);
