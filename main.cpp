@@ -47,6 +47,8 @@ sf::Text textCuadrado;
 textCuadrado.setFont(font);
 sf::Text textRectangulo;
 textRectangulo.setFont(font);
+sf::Text textPractica;
+textPractica.setFont(font);
 
 //Tamaño de texto.
 textNombre.setCharacterSize(24); 
@@ -54,6 +56,8 @@ textMatricula.setCharacterSize(24);
 textCirculo.setCharacterSize(24);
 textCuadrado.setCharacterSize(24);
 textRectangulo.setCharacterSize(24);
+textPractica.setCharacterSize(24);
+
 
 //Color de texto.
 textNombre.setFillColor(sf::Color::Red);
@@ -61,6 +65,7 @@ textMatricula.setFillColor(sf::Color::Yellow);
 textCirculo.setFillColor(sf::Color::White);
 textCuadrado.setFillColor(sf::Color::White);
 textRectangulo.setFillColor(sf::Color::White);
+textPractica.setFillColor(sf::Color::White);
 
 //Estylos.
 textNombre.setStyle(sf::Text::Bold | sf::Text::Underlined);
@@ -68,6 +73,7 @@ textMatricula.setStyle(sf::Text::Bold | sf::Text::Underlined);
 textCirculo.setStyle(sf::Text::Bold | sf::Text::Underlined);
 textCuadrado.setStyle(sf::Text::Bold | sf::Text::Underlined);
 textRectangulo.setStyle(sf::Text::Bold | sf::Text::Underlined);
+textPractica.setStyle(sf::Text::Bold | sf::Text::Underlined);
 
 
 
@@ -77,6 +83,8 @@ textMatricula.setString("Matricula:3-16-4237");
 textCirculo.setString("Circulo");
 textCuadrado.setString("Cuadrado");
 textRectangulo.setString("Rectangulo");
+textPractica.setString("Practica Git");
+
 
 //Posicion del Texto
 textNombre.setPosition(10, 30);
@@ -84,6 +92,8 @@ textMatricula.setPosition(90, 70);
 textCirculo.setPosition(60, 210);
 textCuadrado.setPosition(250, 210);
 textRectangulo.setPosition(455, 210);
+textPractica.setPosition(100, 100);
+
 
 
 
@@ -120,6 +130,7 @@ while (window.isOpen())
 		window2.clear();
 		window2.draw(textNombre);
 		window2.draw(textMatricula);
+		window2.draw(textPractica);
 		window2.display();
 }
 

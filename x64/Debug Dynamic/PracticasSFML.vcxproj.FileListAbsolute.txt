@@ -1,1 +1,2 @@
 D:\Tareas UTESA\PracticasSFML\x64\Debug Dynamic\PracticasSFML.exe
+D:\PracticasSFML\x64\Debug Dynamic\PracticasSFML.exe
